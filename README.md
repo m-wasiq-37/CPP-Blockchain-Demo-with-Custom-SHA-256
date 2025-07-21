@@ -32,8 +32,8 @@ The code is written in **pure C++** to be **portable and dependency-free**, maki
 | --------------------------- | ------------------------------------------------------------------------------------------------- |
 | **Block.h / .cpp**          | Defines a `Block` with index, transactions, previous hash, and a mining function (proof-of-work). |
 | **Blockchain.h / .cpp**     | Manages the entire chain, verifies integrity, and processes pending transactions.                 |
-| **Transaction.h / .cpp**    | Models transactions between wallets, including amounts and "signing."                             |
-| **Wallet.h / .cpp**         | Creates wallet addresses and sends transactions.                                                  |
+| **Transaction.h**    | Models transactions between wallets, including amounts and "signing."                             |
+| **Wallet.h**         | Creates wallet addresses and sends transactions.                                                  |
 | **sha256\_helper.h / .cpp** | Implements the SHA-256 hashing algorithm from scratch (no external libraries).                    |
 | **main.cpp**                | Demonstrates how to create wallets, send transactions, mine blocks, and print the blockchain.     |
 
