@@ -18,11 +18,11 @@ The code is written in **pure C++** to be **portable and dependency-free**, maki
 
 ## **Features**
 
-* 🚀 **Blockchain Class:** Manages the chain of blocks and handles mining.
-* 🧱 **Block Class:** Represents individual blocks, including transactions and hashes.
-* 🔐 **Transaction Class:** Simulates value transfers between wallets.
-* 💼 **Wallet Class:** Generates simple wallet addresses and manages balance simulation.
-* 🔑 **SHA-256 Hashing:** Custom SHA-256 implementation written in C++ (no external libraries).
+*  **Blockchain Class:** Manages the chain of blocks and handles mining.
+*  **Block Class:** Represents individual blocks, including transactions and hashes.
+*  **Transaction Class:** Simulates value transfers between wallets.
+*  **Wallet Class:** Generates simple wallet addresses and manages balance simulation.
+*  **SHA-256 Hashing:** Custom SHA-256 implementation written in C++ (no external libraries).
 
 ---
 
